@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\settings\Project.STM32F103RB_Nucleo.general.xcl" --backend -f "C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\settings\Project.STM32F103RB_Nucleo.driver.xcl" 
+"C:\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\settings\Project.STM32F103RB_Nucleo.general.xcl" --backend -f "C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\settings\Project.STM32F103RB_Nucleo.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\settings\Project.STM32F103RB_Nucleo.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\settings\Project.STM32F103RB_Nucleo.driver.xcl" 
+"C:\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\settings\Project.STM32F103RB_Nucleo.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\settings\Project.STM32F103RB_Nucleo.driver.xcl" 
 
 @echo off 
 :end

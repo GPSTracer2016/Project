@@ -17,7 +17,7 @@
 #define GPS_RCC_GPIO                            RCC_APB2Periph_GPIOA
 #define GPS_GPIO                                GPIOA 
 #define GPS_UART                                USART2 
-#define GPS_Baudrate                            9600      
+#define GPS_Baudrate                            115200      
 #define GPS_PIN_RXD                             GPIO_PIN_3
 #define GPS_PIN_TXD                             GPIO_PIN_2
 #define GPS_IRQn                                USART2_IRQn
@@ -28,37 +28,38 @@
 
 typedef enum {
   GPS_IDLE = 1,
-  INFO_REQUEST 
+  INFO_REQUEST
 }GPSState_TypeDef;
-  
+
 typedef enum {
   GPS_FULL = 1,
-  SLEEP 
+  SLEEP
 }GPSMode_TypeDef;
 
 
 typedef struct {
-  char* latitude;
-  char* longitude;
-  char* UTC_Time;
-  char* N_S_Indicator;
-  char* E_W_Indicator;
-  char* Position_Fix_Indicator;
-  char* Satellites_Used;
-  char* HDOP;
-  char* MSL_Altitude;
-  char* Units;
+  char latitude [11];
+  char longitude[12];
+  char UTC_Time[13] ;
+  char N_S_Indicator[2];
+  char E_W_Indicator[2];
+  char Position_Fix_Indicator[2];
+  char Satellites_Used[3];
+  char HDOP[10];
+  char MSL_Altitude[10];
+  char Units[5];
 }GPSInfo_TypeDef;
 
 typedef struct{
-  GPSMode_TypeDef GPS_Mode;
+  GPSMode_TypeDef *GPS_Mode;
   GPSState_TypeDef GPS_State;
   GPSInfo_TypeDef  GPS_Info;
-  uint8_t Ready_flag;
+  char Ready_flag;
  }GPS_Struct;
 
-
 void GPS_Init(void);
+int GPS_intercomma_parser(char *,char []);
+void GPS_GPGGA_Parser(char [] );
 void ClearBufferRxGPS(void);
 void GPS_Sync(GPS_Struct*);
 void GPS_Sleep(GPS_Struct*);

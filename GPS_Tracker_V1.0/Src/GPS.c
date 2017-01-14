@@ -14,6 +14,7 @@
 extern UART_HandleTypeDef GPS_UART_HANDLE;
 extern char* buffer_GPS_Tx;
 extern uint8_t buffer_GPS_Rx[200];
+extern GPS_Struct GPS ;
 
 /*******Init function******/
   /* Configure the UART peripheral ######################################*/
@@ -38,7 +39,7 @@ static void GPS_USART2_UART_Init(void)
   
   GPS_UART_HANDLE.Instance              = GPS_UART;
 
-  GPS_UART_HANDLE.Init.BaudRate         = 115200;
+  GPS_UART_HANDLE.Init.BaudRate         = GPS_Baudrate;
   GPS_UART_HANDLE.Init.WordLength       = UART_WORDLENGTH_8B;
   GPS_UART_HANDLE.Init.StopBits         = UART_STOPBITS_1;
   GPS_UART_HANDLE.Init.Parity           = UART_PARITY_NONE;
@@ -61,11 +62,53 @@ static void GPS_USART2_UART_Init(void)
   
 }
 
+int GPS_intercomma_parser(char *buffer,char struct_field[])
+{
+  int i = 0;
+  int flag_comma=0 ;
+  while(*buffer!=',')
+  {
+    flag_comma=1 ;
+        struct_field[i]=*buffer;
+        i++;
+        buffer++;
+  }
+  if(flag_comma==0)
+    strcpy(struct_field,"N/A\0");
+  else 	struct_field[i]='\0';
+  return (i+1);
 
+}
 
-/**
-  *****Power on function****
-  */
+void GPS_GPGGA_Parser(char buffer_GPS_Rx[] )
+{
+  char *GPGGA_msg ;
+  char *NMEA_type="$GPGGA";
+  int i = 0;
+  GPGGA_msg=strstr(buffer_GPS_Rx,NMEA_type);
+  GPGGA_msg+=7;
+  i=GPS_intercomma_parser(GPGGA_msg,GPS.GPS_Info.UTC_Time);
+  GPGGA_msg+=i;
+  i=GPS_intercomma_parser(GPGGA_msg,GPS.GPS_Info.latitude);
+  GPGGA_msg+=i;
+  i=GPS_intercomma_parser(GPGGA_msg,GPS.GPS_Info.N_S_Indicator);
+  GPGGA_msg+=i;
+  i=GPS_intercomma_parser(GPGGA_msg,GPS.GPS_Info.longitude);
+  GPGGA_msg+=i;
+  i=GPS_intercomma_parser(GPGGA_msg,GPS.GPS_Info.E_W_Indicator);
+  GPGGA_msg+=i;
+  i=GPS_intercomma_parser(GPGGA_msg,GPS.GPS_Info.Position_Fix_Indicator);
+  GPGGA_msg+=i;
+  i=GPS_intercomma_parser(GPGGA_msg,GPS.GPS_Info.Satellites_Used);
+  GPGGA_msg+=i;
+  i=GPS_intercomma_parser(GPGGA_msg,GPS.GPS_Info.HDOP);
+  GPGGA_msg+=i;
+  i=GPS_intercomma_parser(GPGGA_msg,GPS.GPS_Info.MSL_Altitude);
+  GPGGA_msg+=i;
+  i=GPS_intercomma_parser(GPGGA_msg,GPS.GPS_Info.Units);
+  GPGGA_msg+=i;
+}
+
 void ClearBufferRxGPS(void)
 {      
       GPS_UART_HANDLE.pRxBuffPtr=buffer_GPS_Rx;

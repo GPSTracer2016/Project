@@ -1,61 +1,61 @@
 ###############################################################################
 #
-# IAR ELF Linker V7.50.2.10312/W32 for ARM                11/Jan/2017  20:54:04
+# IAR ELF Linker V7.50.2.10312/W32 for ARM                14/Jan/2017  18:52:47
 # Copyright 2007-2015 IAR Systems AB.
 #
 #    Output file  =  
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Exe\Project.out
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Exe\Project.out
 #    Map file     =  
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\List\Project.map
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\List\Project.map
 #    Command line =  
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\GPS.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\GSM.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\machine.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\main.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\st7735.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\startup_stm32f103xb.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32_adafruit_lcd.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f103xC_GPS_project_callbaks.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f103xC_GPS_project_configs.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f103xC_GPS_project_handlers.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_cortex.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_crc.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_dma.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_flash.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_flash_ex.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_gpio.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_gpio_ex.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_msp.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_pcd.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_pcd_ex.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_rcc.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_rcc_ex.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_smartcard.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_tim.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_tim_ex.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_uart.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_usart.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_it.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_ll_fsmc.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_ll_sdmmc.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_ll_usb.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_nucleo.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\system_stm32f1xx.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\usb_device.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\usbd_cdc.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\usbd_cdc_if.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\usbd_conf.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\usbd_core.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\usbd_ctlreq.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\usbd_desc.o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\usbd_ioreq.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\GPS.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\GSM.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\machine.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\main.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\st7735.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\startup_stm32f103xb.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32_adafruit_lcd.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f103xC_GPS_project_callbaks.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f103xC_GPS_project_configs.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f103xC_GPS_project_handlers.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_cortex.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_crc.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_dma.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_flash.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_flash_ex.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_gpio.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_gpio_ex.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_msp.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_pcd.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_pcd_ex.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_rcc.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_rcc_ex.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_smartcard.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_tim.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_tim_ex.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_uart.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_hal_usart.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_it.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_ll_fsmc.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_ll_sdmmc.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_ll_usb.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\stm32f1xx_nucleo.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\system_stm32f1xx.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\usb_device.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\usbd_cdc.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\usbd_cdc_if.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\usbd_conf.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\usbd_core.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\usbd_ctlreq.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\usbd_desc.o
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj\usbd_ioreq.o
 #        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Exe\Project.out
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Exe\Project.out
 #        --map
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\List\Project.map
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\List\Project.map
 #        --config
-#        C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\stm32f103xb_flash.icf
+#        C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\stm32f103xb_flash.icf
 #        --semihosting --entry __iar_program_start --vfe
 #
 ###############################################################################
@@ -216,22 +216,22 @@ __dlib_dynamic_initialization = normal
     HEAP              uninit   0x200005d0   0x200  <Block tail>
                              - 0x200007d0   0x600
 
-"P2", part 3 of 3:                         0x186c
+"P2", part 3 of 3:                         0x1888
   .bss                zero     0x200007d0   0xbb8  main.o [1]
   .bss                zero     0x20001388   0x420  usbd_conf.o [1]
   .bss                zero     0x200017a8   0x224  usb_device.o [1]
   .bss                zero     0x200019cc   0x220  usbd_conf.o [1]
   .bss                zero     0x20001bec   0x200  usbd_desc.o [1]
-  .bss                zero     0x20001dec   0x13c  main.o [1]
-  .bss                zero     0x20001f28    0x80  usbd_cdc_if.o [1]
-  .bss                zero     0x20001fa8    0x40  main.o [1]
-  .bss                zero     0x20001fe8    0x40  main.o [1]
-  .bss                zero     0x20002028     0x8  xxmemxmalloc.o [3]
-  .bss                zero     0x20002030     0x4  stm32f1xx_hal.o [1]
-  .bss                zero     0x20002034     0x4  xgetmemchunk.o [3]
-  .bss                zero     0x20002038     0x1  usbd_cdc.o [1]
-  .bss                zero     0x20002039     0x1  usbd_ctlreq.o [1]
-                             - 0x2000203a  0x186a
+  .bss                zero     0x20001dec   0x158  main.o [1]
+  .bss                zero     0x20001f44    0x80  usbd_cdc_if.o [1]
+  .bss                zero     0x20001fc4    0x40  main.o [1]
+  .bss                zero     0x20002004    0x40  main.o [1]
+  .bss                zero     0x20002044     0x8  xxmemxmalloc.o [3]
+  .bss                zero     0x2000204c     0x4  stm32f1xx_hal.o [1]
+  .bss                zero     0x20002050     0x4  xgetmemchunk.o [3]
+  .bss                zero     0x20002054     0x1  usbd_cdc.o [1]
+  .bss                zero     0x20002055     0x1  usbd_ctlreq.o [1]
+                             - 0x20002056  0x1886
 
 
 *******************************************************************************
@@ -241,8 +241,8 @@ __dlib_dynamic_initialization = normal
           Address     Size
           -------     ----
 Zero (__iar_zero_init3)
-    1 destination range, total size 0x186a:
-          0x200007d0  0x186a
+    1 destination range, total size 0x1886:
+          0x200007d0  0x1886
 
 Copy/lz77 (__iar_lz77_init_single3)
     1 source range, total size 0xd0 (45% of destination):
@@ -258,11 +258,11 @@ Copy/lz77 (__iar_lz77_init_single3)
 
     Module                              ro code  ro data  rw data
     ------                              -------  -------  -------
-C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj: [1]
+C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj: [1]
     GPS.o                                    16
     GSM.o                                 1 168
     machine.o                                16
-    main.o                                   96             3 444
+    main.o                                   96             3 472
     startup_stm32f103xb.o                   436
     stm32f103xC_GPS_project_callbaks.o       56
     stm32f103xC_GPS_project_configs.o       142
@@ -288,7 +288,7 @@ C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\E
     usbd_desc.o                             176       23      564
     usbd_ioreq.o                             96
     -------------------------------------------------------------
-    Total:                               11 908      163    6 582
+    Total:                               11 908      163    6 610
 
 command line: [2]
     -------------------------------------------------------------
@@ -341,7 +341,7 @@ shb_l.a: [6]
     Gaps                                     22
     Linker created                                    32    1 536
 -----------------------------------------------------------------
-    Grand Total:                         15 260      248    8 246
+    Grand Total:                         15 260      248    8 274
 
 
 *******************************************************************************
@@ -366,13 +366,13 @@ ClearBufferRxGPS        0x08003405    0x8  Code  Gb  GPS.o [1]
 ClearBufferRxGSM        0x08002c6b    0x8  Code  Gb  GSM.o [1]
 Error_Handler           0x08001e65    0x2  Code  Gb  stm32f103xC_GPS_project_handlers.o [1]
 FS_Desc                 0x20000124   0x1c  Data  Gb  usbd_desc.o [1]
-GPS_UART_HANDLE         0x20001fe8   0x40  Data  Gb  main.o [1]
+GPS_UART_HANDLE         0x20002004   0x40  Data  Gb  main.o [1]
 GSM_HttpRequest         0x08002ccd   0xf4  Code  Gb  GSM.o [1]
 GSM_Init                0x08002a95  0x132  Code  Gb  GSM.o [1]
 GSM_Pwr_Off             0x08002c0d   0x2e  Code  Gb  GSM.o [1]
 GSM_Pwr_On              0x08002bd5   0x30  Code  Gb  GSM.o [1]
 GSM_Reset               0x08002c57   0x14  Code  Gb  GSM.o [1]
-GSM_UART_HANDLE         0x20001fa8   0x40  Data  Gb  main.o [1]
+GSM_UART_HANDLE         0x20001fc4   0x40  Data  Gb  main.o [1]
 HAL_Delay               0x080027a5   0x18  Code  Wk  stm32f1xx_hal.o [1]
 HAL_GPIO_Init           0x080028d9  0x174  Code  Gb  stm32f1xx_hal_gpio.o [1]
 HAL_GPIO_ReadPin        0x08002a4d    0xc  Code  Gb  stm32f1xx_hal_gpio.o [1]
@@ -558,8 +558,8 @@ USB_ReadPMA             0x08001b31   0x1c  Code  Gb  stm32f1xx_ll_usb.o [1]
 USB_SetCurrentMode      0x08001531    0x4  Code  Gb  stm32f1xx_ll_usb.o [1]
 USB_SetDevAddress       0x08001ae5    0xc  Code  Gb  stm32f1xx_ll_usb.o [1]
 USB_WritePMA            0x08001b0d   0x24  Code  Gb  stm32f1xx_ll_usb.o [1]
-UserRxBufferFS          0x20001f28   0x40  Data  Gb  usbd_cdc_if.o [1]
-UserTxBufferFS          0x20001f68   0x40  Data  Gb  usbd_cdc_if.o [1]
+UserRxBufferFS          0x20001f44   0x40  Data  Gb  usbd_cdc_if.o [1]
+UserTxBufferFS          0x20001f84   0x40  Data  Gb  usbd_cdc_if.o [1]
 _EncodingSb_Mbtowc      0x08000bf3   0x30  Code  Gb  xencoding_sb.o [3]
 _EncodingSb_Wctomb      0x08000bd9   0x1a  Code  Gb  xencoding_sb.o [3]
 _IsdstStr               0x2000015c    0x4  Data  Gb  setlocale.o [3]
@@ -576,7 +576,7 @@ _TzoneStr               0x20000158    0x4  Data  Gb  setlocale.o [3]
 _Wctomb                 0x08000ab1   0x1a  Code  Gb  xwctomb.o [3]
 __aeabi_memclr          0x080032ed         Code  Gb  ABImemclr.o [5]
 __cmain                 0x08003aa5         Code  Gb  cmain.o [5]
-__data_Aldata           0x20002028    0x8  Data  Gb  xxmemxmalloc.o [3]
+__data_Aldata           0x20002044    0x8  Data  Gb  xxmemxmalloc.o [3]
 __data_GetMemChunk      0x08000c39   0x2c  Code  Gb  xgetmemchunk.o [3]
 __exit                  0x08003ad5   0x14  Code  Gb  exit.o [6]
 __iar_Mbcurmax          0x080009f5    0xa  Code  Gb  xmbcurmax.o [3]
@@ -603,24 +603,24 @@ _call_main              0x08003ab1         Code  Gb  cmain.o [5]
 _exit                   0x08003ac9         Code  Gb  cexit.o [5]
 _main                   0x08003abb         Code  Gb  cmain.o [5]
 buffer_GPS_Rx           0x200007d0  0xbb8  Data  Gb  main.o [1]
-buffer_GSM_Rx           0x20001e24   0xc8  Data  Gb  main.o [1]
+buffer_GSM_Rx           0x20001e40   0xc8  Data  Gb  main.o [1]
 exit                    0x08003ac3    0x4  Code  Gb  exit.o [3]
 free                    0x08000b45   0x7a  Code  Gb  xxmemxfree.o [3]
 hUsbDeviceFS            0x200017a8  0x224  Data  Gb  usb_device.o [1]
 hpcd_USB_FS             0x20001388  0x420  Data  Gb  usbd_conf.o [1]
-machine                 0x20001dec   0x38  Data  Gb  main.o [1]
+machine                 0x20001dec   0x54  Data  Gb  main.o [1]
 main                    0x080038b9   0x60  Code  Gb  main.o [1]
 malloc                  0x08000a01   0xac  Code  Gb  xxmemxmalloc.o [3]
 memchr                  0x0800099d         Code  Gb  memchr.o [5]
-msg                     0x20001eec   0x3c  Data  Gb  main.o [1]
+msg                     0x20001f08   0x3c  Data  Gb  main.o [1]
 sendAtcmd               0x08002c7b   0x52  Code  Gb  GSM.o [1]
 sprintf                 0x08003339   0x34  Code  Gb  sprintf.o [3]
 strchr                  0x080008d1         Code  Gb  strchr.o [5]
 strlen                  0x0800095d         Code  Gb  strlen.o [5]
-uwTick                  0x20002030    0x4  Data  Lc  stm32f1xx_hal.o [1]
+uwTick                  0x2000204c    0x4  Data  Lc  stm32f1xx_hal.o [1]
 
 
-[1] = C:\Users\Hamza\Desktop\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj
+[1] = C:\Users\LAARIBI\Downloads\Compressed\STM32Cube_FW_F1_V1.4.0\Projects\STM32F103RB-Nucleo\TEST\EWARM\STM32F103RB_Nucleo\Obj
 [2] = command line
 [3] = dl7M_tlf.a
 [4] = m7M_tl.a
@@ -629,7 +629,7 @@ uwTick                  0x20002030    0x4  Data  Lc  stm32f1xx_hal.o [1]
 
   15 260 bytes of readonly  code memory
      248 bytes of readonly  data memory
-   8 246 bytes of readwrite data memory
+   8 274 bytes of readwrite data memory
 
 Errors: none
 Warnings: none

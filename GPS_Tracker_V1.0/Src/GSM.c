@@ -304,13 +304,13 @@ void SendPosSMS(void){
  
   char msg[200]="";
   sprintf(msg,"lat: %s\nlong: %s\ntime: %s\n NS_I: %s\nEW_I: %s\nAlt:%s\nUnit:%s\n", 
-          machine.GPS_module.GPS_Info.latitude, 
-          machine.GPS_module.GPS_Info.longitude, 
-          machine.GPS_module.GPS_Info.UTC_Time, 
-          machine.GPS_module.GPS_Info.N_S_Indicator, 
-          machine.GPS_module.GPS_Info.E_W_Indicator, 
-          machine.GPS_module.GPS_Info.MSL_Altitude, 
-          machine.GPS_module.GPS_Info.Units);
+          machine.GPS.GPS_Info.latitude, 
+          machine.GPS.GPS_Info.longitude, 
+          machine.GPS.GPS_Info.UTC_Time, 
+          machine.GPS.GPS_Info.N_S_Indicator, 
+          machine.GPS.GPS_Info.E_W_Indicator, 
+          machine.GPS.GPS_Info.MSL_Altitude, 
+          machine.GPS.GPS_Info.Units);
   
   GSM_SendSMS(msg);
    

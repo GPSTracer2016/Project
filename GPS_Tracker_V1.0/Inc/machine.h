@@ -29,7 +29,7 @@ typedef enum {
 
 typedef struct {
   GSM_Struct GSM_module;
-  GPS_Struct GPS_module;
+  GPS_Struct GPS;
   MACHINEState_TypeDef MACHINE_State;
   //uint8_t NETPeriodic_FLAG;
   uint8_t SMSPeriodic_FLAG;

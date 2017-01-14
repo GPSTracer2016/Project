@@ -45,6 +45,8 @@ MACHINE_STRUCT machine;
 /* Private variables ---------------------------------------------------------*/
 UART_HandleTypeDef GSM_UART_HANDLE;
 UART_HandleTypeDef GPS_UART_HANDLE;
+GPS_Struct GPS ;
+GSM_Struct GSM ;
 
 uint8_t buffer_GSM_Rx[200];
 uint8_t buffer_GPS_Rx[3000];
