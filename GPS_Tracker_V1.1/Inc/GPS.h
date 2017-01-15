@@ -37,10 +37,10 @@ typedef struct {
   char latitude [11];
   char longitude[12];
   char UTC_Time[13] ;
-  char N_S_Indicator[2];
-  char E_W_Indicator[2];
-  char Position_Fix_Indicator[2];
-  char Satellites_Used[3];
+  char N_S_Indicator[4];
+  char E_W_Indicator[4];
+  char Position_Fix_Indicator[4];
+  char Satellites_Used[4];
   char HDOP[10];
   char MSL_Altitude[10];
   char Units[5];
