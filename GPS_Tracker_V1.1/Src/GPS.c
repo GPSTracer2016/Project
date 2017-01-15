@@ -69,6 +69,7 @@ int GPS_intercomma_parser(char *buffer,char struct_field[])
 {
   int i = 0;
   int flag_comma=0 ;
+  memset(struct_field,'\0', sizeof(struct_field));
   while(*buffer!=',')
   {
     flag_comma=1 ;
