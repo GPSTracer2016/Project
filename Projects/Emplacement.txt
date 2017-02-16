@@ -1,0 +1,1 @@
+ce dossier est à mettre dans le dossier "projects" du cube de stm32f1
